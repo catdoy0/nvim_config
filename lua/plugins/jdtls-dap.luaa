@@ -1,0 +1,11 @@
+return {
+  "mfussenegger/nvim-jdtls",
+  ft = { "java" },
+  dependencies = {
+    "mfussenegger/nvim-dap",
+    "nvim-lua/plenary.nvim",
+    "nvim-telescope/telescope.nvim",
+    "nvim-treesitter/nvim-treesitter",
+  }
+}
+

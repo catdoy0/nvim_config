@@ -1,0 +1,21 @@
+-- Autocmds are automatically loaded on the VeryLazy event
+-- Default autocmds that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/autocmds.lua
+--
+-- Add any additional autocmds here
+-- with `vim.api.nvim_create_autocmd`
+--
+-- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
+-- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+-- vim.cmd("hi Normal guibg=#000000")
+-- vim.cmd [[
+--     hi Normal guibg=#000000
+--     hi NormalNC guibg=#000000
+--     hi VertSplit guibg=#000000
+--     hi StatusLine guibg=#000000
+-- ]]
+-- vim.cmd [[
+--     hi Normal     guibg=#000000 ctermbg=NONE
+--     hi NormalNC   guibg=#000000 ctermbg=NONE
+--     hi VertSplit  guibg=#000000 ctermbg=NONE
+--     hi StatusLine guibg=#000000 ctermbg=NONE
+-- ]]
